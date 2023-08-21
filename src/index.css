@@ -119,6 +119,9 @@ hr {
     top: -140px;
     left: 50%;
   }
+   h1 {
+    text-align: center;
+    padding-top: 1.5rem;
   }
  
 
@@ -156,9 +159,6 @@ hr {
   .faqs {
     padding: 1.5rem;
   }
-   h1 {
-    text-align: center;
-    padding-top: 1.5rem;
-  }
+  
   
 }
