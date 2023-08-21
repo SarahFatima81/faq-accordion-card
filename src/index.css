@@ -116,7 +116,7 @@ hr {
     height: 18.75rem;
     transform: translateX(-52%);
     position: absolute;
-    top: -150%;
+    top: -140px;
     left: 50%;
   }
   }
