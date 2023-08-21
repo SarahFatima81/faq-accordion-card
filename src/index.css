@@ -147,6 +147,8 @@ hr {
     height: 250px;
     width: 250px;
     transform: translateY(-60%);
+    top: 45%;
+    left: 16%;
   }
 
   .faqs {
