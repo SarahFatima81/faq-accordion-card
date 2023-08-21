@@ -144,7 +144,8 @@ hr {
     background-size: 75%;
   }
   .woman-online {
-    height: 325%;
+    height: 250px;
+    width: 250px;
     transform: translateY(-60%);
   }
 
