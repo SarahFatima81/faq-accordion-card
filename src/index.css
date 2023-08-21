@@ -109,15 +109,16 @@ hr {
     grid-template-rows: 90px auto;
   }
   .woman-online {
+    
     background: url(/public/images/illustration-woman-online-mobile.svg);
     background-repeat: no-repeat;
-    background-position: top center;
     width: 18.75rem;
     height: 18.75rem;
+    transform: translateX(-52%);
     position: absolute;
     top: -150%;
     left: 50%;
-    transform: translateY(-52%);
+  }
   }
   h1 {
     text-align: center;
