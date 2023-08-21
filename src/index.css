@@ -119,6 +119,10 @@ hr {
     left: 50%;
     transform: translateY(-52%);
   }
+  h1 {
+    text-align: center;
+    padding-top: 2.5rem;
+  }
 
   .faqs {
     padding: 2.5rem;
@@ -154,8 +158,5 @@ hr {
   .faqs {
     padding: 1.5rem;
   }
-  h1 {
-    text-align: center;
-    padding-top: 2.5rem;
-  }
+  
 }
