@@ -112,10 +112,10 @@ hr {
     background: url(/public/images/illustration-woman-online-mobile.svg);
     background-repeat: no-repeat;
     background-position: top center;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     position: absolute;
-    top: -140%;
+    top: -150%;
     left: 50%;
     transform: translateY(-52%);
   }
