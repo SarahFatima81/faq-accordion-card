@@ -46,19 +46,20 @@ function App() {
   );
 }
 function Accordion({ data }) {
+  const [curOpen, setCurOpen] = useState(null);
   return (
     <div>
-      {data.map((el) => (
-        <AccordionItem question={el.question} answer={el.answer} />
+      {data.map((el, i) => (
+        <AccordionItem question={el.question} answer={el.answer} curOpen={curOpen} onOpen={setCurOpen} num={i}/>
       ))}
     </div>
   );
 }
-function AccordionItem({ question, answer }) {
-  const [isOpen, setIsOpen] = useState(null);
+function AccordionItem({ question, answer, curOpen, onOpen, num }) {
+  const isOpen = num===curOpen;
 
   function handleToggle() {
-    setIsOpen((isOpen) => !isOpen);
+    onOpen(isOpen ? null: num);
   }
   return (
     <div className="item">
